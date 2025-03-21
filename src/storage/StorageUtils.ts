@@ -419,7 +419,7 @@ export function getOpenAIProxyEnabled() {
     return currentOpenAIProxyEnabled;
   } else {
     currentOpenAIProxyEnabled =
-      storage.getBoolean(openAIProxyEnabledKey) ?? true;
+      storage.getBoolean(openAIProxyEnabledKey) ?? false;
     return currentOpenAIProxyEnabled;
   }
 }
