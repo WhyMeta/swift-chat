@@ -1,4 +1,4 @@
-# OpenAI / DeepSeek SwiftChat App
+## OpenAI / DeepSeek SwiftChat App
 
 > **Source**: [https://github.com/aws-samples/swift-chat](https://github.com/aws-samples/swift-chat)
 
@@ -8,3 +8,6 @@
 
 <img src="./screenshot_images/Screenshot_7.png" width="200" /> <img src="./screenshot_images/Screenshot_8.png" width="200" />
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
