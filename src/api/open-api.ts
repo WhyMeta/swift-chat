@@ -295,12 +295,13 @@ function getApiKey(): string {
 function getApiURL(): string {
   if (getTextModel().modelId.includes('deepseek')) {
     return getDeepSeekApiUrl() + '/chat/completions';
-    // return 'https://ark.cn-beijing.volces.com/api/v3/chat/completions';
   } else {
     if (getOpenAIProxyEnabled()) {
       return (isDev ? 'http://localhost:8080' : getApiUrl()) + '/api/gpt';
     } else {
-      return getOpenAIApiUrl() + '/chat/completions';
+      const baseUrl = getOpenAIApiUrl();
+      const path = baseUrl.includes('/v1') ? '/chat/completions' : '/v1/chat/completions';
+      return baseUrl + path;
     }
   }
 }
