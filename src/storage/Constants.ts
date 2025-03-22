@@ -31,8 +31,8 @@ export const DeepSeekModels = [
   { modelName: 'deepseek-r1-250120', modelId: 'deepseek-r1-250120' },
   { modelName: 'deepseek-ai/DeepSeek-V3', modelId: 'deepseek-ai/DeepSeek-V3' },
   { modelName: 'deepseek-ai/DeepSeek-R1', modelId: 'deepseek-ai/DeepSeek-R1' },
-  { modelName: 'Pro/deepseek-ai/DeepSeek-V3', modelId: 'deepseek-ai/DeepSeek-V3' },
-  { modelName: 'Pro/deepseek-ai/DeepSeek-R1', modelId: 'deepseek-ai/DeepSeek-R1' },
+  { modelName: 'Pro/deepseek-ai/DeepSeek-V3', modelId: 'Pro/deepseek-ai/DeepSeek-V3' },
+  { modelName: 'Pro/deepseek-ai/DeepSeek-R1', modelId: 'Pro/deepseek-ai/DeepSeek-R1' },
   { modelName: 'deepseek-ai/DeepSeek-V3-Search', modelId: 'deepseek-ai/DeepSeek-V3-Search' },
   { modelName: 'deepseek-ai/DeepSeek-R1-Search', modelId: 'deepseek-ai/DeepSeek-R1-Search' },
 ];
