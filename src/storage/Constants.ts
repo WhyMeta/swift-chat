@@ -25,14 +25,16 @@ export const GPTModels = [
 export const DeepSeekModels = [
   { modelName: 'deepseek-chat', modelId: 'deepseek-chat' },
   { modelName: 'deepseek-reasoner', modelId: 'deepseek-reasoner' },
-  { modelName: 'deepseek-r1', modelId: 'deepseek-r1' },
   { modelName: 'deepseek-v3', modelId: 'deepseek-v3' },
+  { modelName: 'deepseek-r1', modelId: 'deepseek-r1' },
+  { modelName: 'deepseek-v3-241226', modelId: 'deepseek-v3-241226' },
+  { modelName: 'deepseek-r1-250120', modelId: 'deepseek-r1-250120' },
   { modelName: 'deepseek-ai/DeepSeek-V3', modelId: 'deepseek-ai/DeepSeek-V3' },
   { modelName: 'deepseek-ai/DeepSeek-R1', modelId: 'deepseek-ai/DeepSeek-R1' },
-  { modelName: 'deepseek-r1-250120', modelId: 'deepseek-r1-250120' },
-  { modelName: 'deepseek-v3-241226', modelId: 'deepseek-v3-241226' },
-  { modelName: 'deepseek-ai/DeepSeek-R1-Search', modelId: 'deepseek-ai/DeepSeek-R1-Search' },
+  { modelName: 'Pro/deepseek-ai/DeepSeek-V3', modelId: 'deepseek-ai/DeepSeek-V3' },
+  { modelName: 'Pro/deepseek-ai/DeepSeek-R1', modelId: 'deepseek-ai/DeepSeek-R1' },
   { modelName: 'deepseek-ai/DeepSeek-V3-Search', modelId: 'deepseek-ai/DeepSeek-V3-Search' },
+  { modelName: 'deepseek-ai/DeepSeek-R1-Search', modelId: 'deepseek-ai/DeepSeek-R1-Search' },
 ];
 
 export const BedrockThinkingModels = ['Claude 3.7 Sonnet'];

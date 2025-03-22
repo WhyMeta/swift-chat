@@ -80,7 +80,7 @@ android {
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 41
-        versionName "1.0.0"
+        versionName "1.0.1"
         ndk {
             //noinspection ChromeOsAbiSupport
             abiFilters 'arm64-v8a'
