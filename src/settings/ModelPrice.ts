@@ -141,6 +141,10 @@ export const ModelPrice: ModelPriceType = {
       inputTokenPrice: 0.00015,
       outputTokenPrice: 0.0006,
     },
+    'Claude-3.7-sonnet': {
+      inputTokenPrice: 0.003,
+      outputTokenPrice: 0.015,
+    },
     'Titan Text G1 - Lite': {
       inputTokenPrice: 0.00015,
       outputTokenPrice: 0.0002,

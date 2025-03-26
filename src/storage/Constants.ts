@@ -20,7 +20,7 @@ export const DefaultRegion = 'us-west-2';
 export const GPTModels = [
   { modelName: 'GPT-4o', modelId: 'gpt-4o' },
   { modelName: 'GPT-4o mini', modelId: 'gpt-4o-mini' },
-  { modelName: 'Claude-3.7-sonnet', modelId: 'augment-auto' },
+  { modelName: 'Claude-3.7-sonnet', modelId: 'claude-3.7-sonnet' },
 ];
 
 export const DeepSeekModels = [
