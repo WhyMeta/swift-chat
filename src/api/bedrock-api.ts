@@ -49,10 +49,10 @@ export const invokeBedrockWithCallBack = async (
     model => model.modelId === getTextModel().modelId
   );
   // const isOpenAI = getTextModel().modelId.includes('gpt') || getTextModel().modelId.includes('claude');
-  const isOllama = getTextModel().modelId.startsWith('ollama-');
   const isOpenAI = GPTModels.some(
     model => model.modelId === getTextModel().modelId
   );
+  const isOllama = getTextModel().modelId.startsWith('ollama-');
   if (chatMode === ChatMode.Text && (isDeepSeek || isOpenAI || isOllama)) {
     if (isDeepSeek && getDeepSeekApiKey().length === 0) {
       callback('Please configure your DeepSeek API Key', true, true);
