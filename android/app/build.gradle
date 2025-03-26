@@ -106,8 +106,7 @@ android {
             signingConfig signingConfigs.debug
             applicationVariants.all { variant ->
                 variant.outputs.each { output ->
-                    def outputFile = output.outputFile
-                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    if (variant.buildType.name == 'debug') {
                         def fileName = "SwiftChat-Debug.apk"
                         output.outputFileName = fileName
                     }
@@ -122,8 +121,7 @@ android {
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
             applicationVariants.all { variant ->
                 variant.outputs.each { output ->
-                    def outputFile = output.outputFile
-                    if (outputFile != null && outputFile.name.endsWith('.apk')) {
+                    if ( variant.buildType.name == 'release') {
                         def fileName = "SwiftChat-Release.apk"
                         output.outputFileName = fileName
                     }
