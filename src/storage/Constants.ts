@@ -20,18 +20,24 @@ export const DefaultRegion = 'us-west-2';
 export const GPTModels = [
   { modelName: 'GPT-4o', modelId: 'gpt-4o' },
   { modelName: 'GPT-4o mini', modelId: 'gpt-4o-mini' },
+  { modelName: 'Claude-3.7-sonnet', modelId: 'augment-auto' },
 ];
 
 export const DeepSeekModels = [
   { modelName: 'deepseek-chat', modelId: 'deepseek-chat' },
   { modelName: 'deepseek-reasoner', modelId: 'deepseek-reasoner' },
   { modelName: 'deepseek-v3', modelId: 'deepseek-v3' },
+  { modelName: 'deepseek-v3-0324', modelId: 'deepseek-v3-0324' },
   { modelName: 'deepseek-r1', modelId: 'deepseek-r1' },
   { modelName: 'deepseek-v3-241226', modelId: 'deepseek-v3-241226' },
+  { modelName: 'deepseek-v3-250324', modelId: 'deepseek-v3-250324' },
   { modelName: 'deepseek-r1-250120', modelId: 'deepseek-r1-250120' },
   { modelName: 'deepseek-ai/DeepSeek-V3', modelId: 'deepseek-ai/DeepSeek-V3' },
+  { modelName: 'deepseek-ai/DeepSeek-V3-0324', modelId: 'deepseek-ai/DeepSeek-V3-0324' },
   { modelName: 'deepseek-ai/DeepSeek-R1', modelId: 'deepseek-ai/DeepSeek-R1' },
   { modelName: 'Pro/deepseek-ai/DeepSeek-V3', modelId: 'Pro/deepseek-ai/DeepSeek-V3' },
+  { modelName: 'Pro/deepseek-ai/DeepSeek-V3-1226', modelId: 'Pro/deepseek-ai/DeepSeek-V3-1226' },
+  { modelName: 'Pro/deepseek-ai/DeepSeek-V3-0324', modelId: 'Pro/deepseek-ai/DeepSeek-V3-0324' },
   { modelName: 'Pro/deepseek-ai/DeepSeek-R1', modelId: 'Pro/deepseek-ai/DeepSeek-R1' },
   { modelName: 'deepseek-ai/DeepSeek-V3-Search', modelId: 'deepseek-ai/DeepSeek-V3-Search' },
   { modelName: 'deepseek-ai/DeepSeek-R1-Search', modelId: 'deepseek-ai/DeepSeek-R1-Search' },
@@ -41,10 +47,8 @@ export const BedrockThinkingModels = ['Claude 3.7 Sonnet'];
 
 export const DefaultTextModel = [
   {
-    // modelName: 'Nova Pro',
     modelName: 'deepseek-reasoner',
     modelId: 'deepseek-reasoner'
-    // modelId: 'us.amazon.nova-pro-v1:0',
   },
 ];
 
