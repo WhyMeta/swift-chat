@@ -33,7 +33,7 @@ const initializeStorage = () => {
 };
 export const encryptStorage = initializeStorage();
 
-const keyPrefix = 'bedrock/';
+const keyPrefix = 'swiftchat/';
 const messageListKey = keyPrefix + 'messageList';
 const sessionIdPrefix = keyPrefix + 'sessionId/';
 const currentSessionIdKey = keyPrefix + 'currentSessionId';
